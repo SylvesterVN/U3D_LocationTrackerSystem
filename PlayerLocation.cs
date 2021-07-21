@@ -5,7 +5,7 @@ using UnityEngine;
 
 /*This Script will be assigned to the player object and uses a raycast to check the Current Object 
  * they are above and will set the current location to be equal to that object name*/
-public class PlayerLocation1 : MonoBehaviour
+public class PlayerLocation : MonoBehaviour
 {
     private GameObject hit;
     public string currentLocation;
