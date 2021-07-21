@@ -9,7 +9,7 @@ using UnityScript.Steps;
 
 /*This script stores the different in Game areaTypes in order to track the players current location.  
  * Assign this script to any object which the player can be located. */
-public class LocationData1 : MonoBehaviour
+public class LocationData : MonoBehaviour
 {
     //Enum storing different areaTypes, simply input the different types of areas to store them
     public enum areaType { areaType1}
